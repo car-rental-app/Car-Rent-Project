@@ -4,11 +4,12 @@
 	<meta name=viewport content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
 	<title>Car Rent</title>
+	<link rel="stylesheet" href="css/library.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<div class="dimm"></div>
-	<nav>	
+	<nav class="fixed_menu hidden_top">	
 		<div class="row">
 			<div class="col-12">
 				<div class="navbar">
@@ -39,7 +40,7 @@
 							<li><a href="">Services</a></li>
 							<li><a href="">Contact</a></li>
 							<li class="hidden_button"><a href="" class="button">Login</a></li>
-							<li class="hidden_button"><a href="" class="button success">Sing Up</a></li>
+							<li class="hidden_button"><a href="" class="button success">Sign Up</a></li>
 						</ul>
 					</div>
 					<ul class="navbar_buttons">
@@ -47,34 +48,75 @@
 							<a href="" class="button">Login</a>	
 						</li>
 						<li>
-							<a href="" class="button success">Sing Up</a>
+							<a href="" class="button success">Sign Up</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</nav>
-	<div class="container">
+	<div class="main_page_container">
 		<div class="page_header">
 			<div class="row">
 				<div class="col-12">
 					<div class="page_header_image">
-						<div class="greyscale"></div>
-						<section>
-							
-						</section>
+						<div class="scale">
+							<nav class="top_menu">
+								<div class="row">
+									<div class="col-12">
+										<div class="navbar">
+											<div class="top_navbar">
+												<ul>
+													<li><a href="index.html" class="active">Home</a></li>
+													<li><a href="catalog.html">Car rental</a></li>
+													<li><a href="">Best deals</a></li>
+													<li><a href="">Services</a></li>
+													<li><a href="">Contact</a></li>
+												</ul>
+												<div class="top_navbar_buttons">
+													<ul>
+														<li><a href="" class="button white">Login</a></li>
+														<li><a href="" class="button white">Sign up</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</nav>
+							<section>
+								<div class="row">
+									<div class="col-4">
+										<div class="lead_form">
+											<form action="" class="">
+												
+											</form>
+										</div>
+									</div>
+									<div class="col-8">
+										<div class="lead_header">
+											<div class="lead_info">
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="deals">
+		<div class="deals_header">
 			<div class="row">
 				<div class="col-12">
-					<div class="deals_header">
+					<section>
 						<h1>Найкращі пропозиції</h1>
-					</div>
+					</section>
 				</div>
 			</div>
+		</div>
+		<div class="deals">
 			<div class="row">
 				<div class="col-12">
 					<section>
@@ -255,8 +297,16 @@
 				</div>
 			</div>
 		</div>
-		<!-- div.space>div.row>div.col-12 --> 
-		<!-- div.gradient>div.row>div.col-12 -->
+		<div class="gradient">
+			<div class="row">
+				<div class="col-12"></div>
+			</div>
+		</div>
+		<div class="space">
+			<div class="row">
+				<div class="col-12"></div>
+			</div>
+		</div>
 		<footer>
 			<div class="row">
 				<div class="col-12">

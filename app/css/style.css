@@ -1,129 +1,3 @@
-* {
-	box-sizing: border-box;
-}
-body {
-	font-family: 'Helvetica', sans-serif;
-	margin: 0;
-	padding: 0;
-}
-hr {
-	border: 0;
-	height: 0;
-	border-top: 1px solid #dcdbde;
-}
-.row:after {
-	content: "";
-    clear: both;
-    display: table;
-}
-[class*='col-'] {
-  	float: left;
-}
-.col-1  { width: 8.33%;  } 
-.col-2  { width: 16.66%; }
-.col-3  { width: 25%;    }
-.col-4  { width: 33.3%;  }
-.col-5  { width: 41.65%; }
-.col-6  { width: 50%;    }
-.col-7  { width: 58.33%; }
-.col-8  { width: 66.66%; }
-.col-9  { width: 75%;    }
-.col-10 { width: 83.33%; }
-.col-11 { width: 91.67%; }
-.col-12 { width: 100%;   }
-.dimmed {
-	background-color: rgba(0, 0, 0, 0.7);
-	height: 100vh;
-    width: 100%;
-    position: fixed;
-    z-index: 5;
-}
-.box {
-	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12); 
-	background-color: white;
-	
-}
-/******
-
-*******Icons*******
-
-******/
-.deal_info_icon {
-	display: inline-block;
-	width: 16px;
-	height: 16px;
-	background-size: cover;
-	background-position: center;
-	margin-bottom: -2px;
-	margin-right: 5px;
-	opacity: .5;
-}
-.car_door {
-	background-image: url('../img/icons/car-door.png');
-}
-.fuel {
-	background-image: url('../img/icons/fuel.png');	
-}
-.gear {
-	background-image: url('../img/icons/gearbox.png');
-}
-.engine {
-	background-image: url('../img/icons/engine.png');
-}
-.garage {
-	background-image: url('../img/icons/garage.png');
-}
-.man {
-	background-image: url('../img/icons/man.png');
-}
-/*****
-
- ********Buttons*******
-
- *******/
-.button {
-	display: inline-block;
-	cursor: pointer;
-	font-size: 16px;
-	border: none;
-	color: white;
-	background-color: #cac9cd;
-	height: 34px;
-	line-height: 34px;
-	padding: 0 16px;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    transition: .2s;
-    /*border-radius: 3px;*/
-	font-weight: bold;
-}
-.button:hover {
-	background-color: #b5b4b8;
-}
-.button.big {
-	font-size: 26px;
-	height: 44px;
-	padding: 0 20px;
-}
-.primary {
-	background-color: #00aadc;
-}
-.primary:hover {
-	background-color: #0099c6;
-}
-.success {
-	background-color: #1abc9c;
-}
-.success:hover {
-	background-color: #14967c;
-}
-.red {
-	background-color: #ff6464;
-}
-.red:hover {
-	background-color: #e55a5a;
-}
 /*******
 *******Navbar*******
 ******/
@@ -141,14 +15,70 @@ hr {
 	color: #0099c6;
 }
 nav {
-	position: fixed;
 	width: 100%;
+	z-index: 5;
+}
+.top_menu {
+	height: 80px;
+}
+.fixed_menu {
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 	background-color: white;
 	color: black;
 	height: 60px;
-	z-index: 5;
-	/*letter-spacing: 1px;*/
+	position: fixed;
+	top: 0;
+	transition: all .3s ease-in-out;
+	transform: translateY(0);
+}
+.hidden_top {
+	transform: translateY(-60px);
+}
+.default_menu {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-color: white;
+	color: black;
+	height: 60px;
+	position: fixed;
+}
+.top_navbar {
+	padding-left: 20px;
+}
+.top_navbar ul {
+	margin: 0;
+	padding: 0;
+}
+.top_navbar ul li {
+	float: left;
+	list-style-type: none;
+	margin-right: 18px; 
+	margin-top: 30px;	
+}
+.top_navbar ul li a {
+	display: inline-block;
+	line-height: 30px;
+	text-decoration: none;	
+	color: white;
+	font-size: 18px;
+	transition: .3s;
+}
+.top_menu ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+.top_menu ul li a:hover::after {
+    width: 100%;
+}
+.top_menu ul li .active::after {
+	content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: white;
 }
 .desktop_menu {
 	padding-left: 20px;
@@ -174,7 +104,7 @@ nav {
     display: block;
     width: 0;
     height: 2px;
-    background: #34e89e;
+    background: #00aadc;
     transition: width .3s;
 }
 .desktop_menu ul li a:hover::after {
@@ -188,7 +118,7 @@ nav {
     display: block;
     width: 100%;
     height: 2px;
-    background: #34e89e;
+    background: #00aadc;
 } 
 .mobile_menu {
 	display: none;
@@ -221,6 +151,12 @@ nav {
 	padding: 0;
 	float: right;
 	margin-right: 20px;
+}
+.navbar .top_navbar_buttons {
+	margin: 0;
+	padding: 0;
+	float: right;
+	margin-right: 8px;
 }
 .navbar .navbar_buttons li{
 	list-style-type: none;
@@ -272,15 +208,31 @@ nav {
 	transform: translateX(0);
 }
 /******
+*******Leadf form******
+*******/
+.lead_form {
+	padding: 10px;
+}
+.lead_form form{
+	margin-top: 30px;
+	width: 100%;
+	height: 380px;
+	background-color: white;
+}
+.lead_header {
+	padding: 10px;
+}
+.lead_info {
+	margin-top: 30px;
+	border: 1px solid white;
+	height: 380px;
+	width: 100%;
+}
+/******
 ******Main content*******
 ******/
 .container {
 	padding-top: 60px;
-}
-section {
-	padding: 20px;
-	width: 80%;
-	margin: 0 auto;
 }
 .page_header {
 	height: auto;
@@ -291,31 +243,32 @@ section {
 	background-size: cover;
 	background-position: center;
 	width: 100%;
-	height: 550px;
+	min-height: 580px;
+	height: auto;
 }
-.greyscale {
+.scale {
 	width: 100%;
-	height: 550px;
-	opacity: .3;
-	background-color: #3f4145;
+	min-height: 580px;
+	height: auto;
+	background-color: rgba(28, 167, 234, 0.7);
 }
 .deals {
-	background-color: #eeeeee;
+	/*background-color: #eeeeee;*/
 	height: auto;
 	width: 100%;
+	padding-bottom: 30px;
+	padding-top: 50px;
 }
-.deals_header {
-	width: 100%;
-	height: auto;
-	/* margin-bottom: 20px; */
+.deals_header {	
 	text-align: center;
 	color: white;
-	letter-spacing: 6px;
-	/* background-color: black; */
-	background-image: url('../img/pacific.jpg');
+	font-size: 24px;
+	height: auto;
+	width: 100%;
+	background-image: url('../img/Reef.jpg');
 	background-size: cover;
 	background-position: center;
-	padding: 20px;
+	/*display: none;*/
 }
 .deals_header h1{
 	margin: 0;
@@ -360,7 +313,6 @@ section {
 .deal .button {
 	width: 100%;
 	float: left;
-	/*background-color: #ffdc5a;*/
 } 
 .deal:hover .ribbon{
 	height: 50px;
@@ -371,7 +323,7 @@ section {
   	width: 0;
   	height: 40px;
   	padding-top: 10px;
-  	/* border: 30px solid #1abc9c; */
+  	 /*border: 30px solid #1abc9c; */
   	/*border: 20px solid #ff6464;*/
   	/*border: 20px solid #ffdc5a;*/
 	border: 30px solid #ffc700;
@@ -390,7 +342,7 @@ section {
 	min-height: 400px;
 	height: auto;
 	width: 100%;
-	background-image: url('../img/pacific.jpg');
+	background-image: url('../img/Reef.jpg');
 	background-size: cover;
 	background-position: center;
 }
@@ -398,7 +350,7 @@ section {
 	min-height: 400px;
 	height: auto;
 	width: 100%;
-	background-color: #ffc700;
+	background-color: white;
 }
 /******
 ******Transport******
@@ -447,12 +399,8 @@ footer {
 	}
 }
 @media screen and (max-width: 980px) {
-	.page_header_image {
-		height: 350px;
-	}
-	.greyscale {
-		height: 350px;
-	}
+	.scale .col-4 { width: 40%; }
+	.scale .col-8 { width: 60%; }
 	.menu {
 		width: 290px;
 		right: -290px;
@@ -472,6 +420,11 @@ footer {
 	[class*='col-'] {
 		padding-right: 0;
 	}
+	.scale .col-4 { width: 50%; }
+	.scale .col-8 { width: 50%; }
+	.scale {
+		padding-top: 80px;
+	}
 	.col-4 { width: 100%; }
 	.desktop_menu {
 		display: none;
@@ -482,23 +435,18 @@ footer {
 	.navbar .menu li a {
 		color: black;
 	}
+	.top_menu {
+		display: none;
+	}
+	.hidden_top {
+		transform: translateY(0);
+	}
 }
 @media screen and (max-width: 560px) {
-/*  .col-1 { width: 100%; } 
-	.col-2 { width: 100%; }*/
-	.col-3 { width: 50%; }
 	.col-4 { width: 100%; }
-/*	.col-5 { width: 100%; }
-	.col-6 { width: 50%; }
-	.col-7 { width: 100%; }*/
 	.col-8 { width: 100%; }
-/*	.col-9 { width: 100%; }
-	.col-10 { width: 100%; }
-	.col-11 { width: 100%; }
-	.col-12 { width: 100%; }*/
-	[class*='col-'] {
-		padding-right: 0;
-	}
+	.scale .col-4 { width: 100%; }
+	.scale .col-8 { width: 100%; }
 	.container {
 		padding-top: 60px;
 	}
@@ -507,16 +455,6 @@ footer {
 	}
 	.navbar .menu .hidden_button {
 		display: block;
-	}
-	.open_button {
-		height: 60px;
-	}
-	.open_button img {
-		margin-top: 15px;
-	}
-	.open_header {
-		height: 60px;
-		line-height: 60px;
 	}
 	.menu {
 		top: 61px;
@@ -527,11 +465,13 @@ footer {
 	.hidden {
 		transform: translateX(0);
 	}
-	.deals_header {
-		color: white;
-		background-color: #dcdbde;
-	}
 	.deal_wrap {
+		padding: 0;
+	}
+	.lead_form {
+		padding: 0;
+	}
+	.lead_header {
 		padding: 0;
 	}
 }
