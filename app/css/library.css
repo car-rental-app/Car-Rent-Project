@@ -108,22 +108,28 @@ section {
 	background-color: #b5b4b8;
 }
 .button.big {
-	font-size: 26px;
+	font-size: 22px;
 	height: 44px;
+	line-height: 44px;
 	padding: 0 20px;
 }
 .primary {
-	/*background-color: #00aadc;*/
 	background-color: #1ca7ea;
 }
 .primary:hover {
-	background-color: #0099c6;
+	background-color: #1996d2;
 }
 .success {
 	background-color: #1abc9c;
 }
 .success:hover {
 	background-color: #14967c;
+}
+.yellow {
+	background-color: #ffd232;
+}
+.yellow:hover {
+	background-color: #ffc700;
 }
 .red {
 	background-color: #ff6464;
