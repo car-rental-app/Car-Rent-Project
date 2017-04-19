@@ -82,6 +82,10 @@ section {
 .man {
 	background-image: url('../img/icons/man.png');
 }
+.big_icon {
+	width: 30px;
+	height: 30px;
+}
 /*****
 
  ********Buttons*******
