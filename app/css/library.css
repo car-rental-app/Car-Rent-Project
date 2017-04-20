@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: 'Helvetica', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -54,7 +54,7 @@ section {
 *******Icons*******
 
 ******/
-.deal_info_icon {
+.icon {
 	display: inline-block;
 	width: 16px;
 	height: 16px;
@@ -82,9 +82,18 @@ section {
 .man {
 	background-image: url('../img/icons/man.png');
 }
+.social_vk {
+	background-image: url('../img/icons/vk-social-logotype.png');
+}
+.social_fb {
+	background-image: url('../img/icons/facebook-logo.png');
+}
+.social_g {
+	background-image: url('../img/icons/google-plus-social-logotype.png');
+}
 .big_icon {
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
 }
 /*****
 
