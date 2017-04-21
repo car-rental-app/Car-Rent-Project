@@ -293,19 +293,21 @@ nav {
 	/*background-color: #eeeeee;*/
 	height: auto;
 	width: 100%;
-	padding-bottom: 30px;
-	padding-top: 50px;
+	padding-bottom: 10px;
+	padding-top: 30px;
 }
 .deals_header {	
 	text-align: center;
 	color: white;
-	font-size: 24px;
 	height: auto;
 	width: 100%;
 	background-image: url('../img/Reef.jpg');
 	background-size: cover;
 	background-position: center;
 	/*display: none;*/
+}
+.deals_header section {
+	padding: 10px;
 }
 .deals_header h1{
 	margin: 0;
@@ -475,7 +477,7 @@ footer {
 	.scale {
 		padding-top: 80px;
 	}
-	.col-4 { width: 100%; }
+	.deals .col-4 { width: 100%; }
 	.desktop_menu {
 		display: none;
 	}
@@ -492,8 +494,8 @@ footer {
 		transform: translateY(0);
 	}
 	.deals {
-		padding-bottom: 10px;
-		padding-top: 30px;
+		padding-bottom: 0;
+		padding-top: 20px;
 	}
 	.lead_info {
 		padding: 10px;
