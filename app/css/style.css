@@ -404,19 +404,69 @@ nav {
   	margin-left: -14px;
   	font-weight: bold;
 }
-.gradient {
-	min-height: 400px;
+.main_page_info {
 	height: auto;
 	width: 100%;
 	background-image: url('../img/Reef.jpg');
 	background-size: cover;
 	background-position: center;
+	color: white;
+	padding: 20px 0px;
 }
-.space {
-	min-height: 400px;
+.main_page_info_p {
+	padding: 10px 10px 10px 0px;
+}
+.main_page_info_p p:first-child {
+	margin-bottom: 10px;
+	/*border: 1px solid black;*/
+}
+.main_page_list {
+	padding: 10px 0;
+}
+.main_page_list h1 {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 30px;
+	padding-left: 10px;
+}
+.main_page_list ul {
+	margin: 0;
+	padding: 0;
+	padding-left: 30px;
+}
+.main_page_list ul li {
+	font-size: 20px;
+	margin-top: 10px;
+}
+.features {
 	height: auto;
 	width: 100%;
 	background-color: white;
+	padding: 50px 0px;
+}
+.feature {
+	/*min-height: 320px;*/
+	height: auto;
+	width: 100%;
+}
+.feature_img {
+	height: 80px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.feature_info {
+	height: auto;
+	text-align: center;
+
+}
+.feature_info h3 {
+	/*color: #b5b4b8;*/
+	color: #1ca7ea;
+	padding: 0px 10px;
+}
+.feature_info p {
+	padding: 0px 20px;
 }
 /******
 ******Transport******
@@ -519,6 +569,7 @@ footer {
 		padding-top: 80px;
 	}
 	.deals .col-4 { width: 100%; }
+	.features .col-4 { width: 100%; }
 	.desktop_menu {
 		display: none;
 	}
@@ -541,10 +592,19 @@ footer {
 	.lead_info {
 		padding: 10px;
 	}
+	.features {
+		padding: 0px 0px 30px 0px;
+	}
+	.feature_img {
+		margin-top: 40px;
+	}
 }
 @media screen and (max-width: 560px) {
 	.col-4 { width: 100%; }
 	.col-8 { width: 100%; }
+	.main_page_info .col-6 {
+		width: 100%;
+	}
 	.container {
 		padding-top: 60px;
 	}
@@ -589,6 +649,9 @@ footer {
 	}
 	.lead_info h1 {
 		font-size: 26px;
+	}
+	.main_page_info {
+		padding: 0px;
 	}
 }
 
