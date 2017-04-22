@@ -74,7 +74,7 @@ nav {
 	text-decoration: none;
 	font-size: 18px;
 	position: relative;
-	text-transform: capitalize;
+	/*text-transform: capitalize;*/
 } 
 .top_menu .header_menu > li a:after{
 	content: '';
@@ -426,23 +426,31 @@ nav {
 	min-height: 100vh;
 }
 
-.car {
-	width:200px;
-	height:100px;
+
+/*******
+******Contacts********
+*********/
+.contacts {
+	height: auto;
+	min-height: 100vh;
 }
 
 
+/******
+********About******
+******/
+.about_info {
+	height: auto;
+	min-height: 100vh;
+}
 
-
-
-
-
-
-
-
-
-
-
+/******
+********Main form******
+******/
+.main_rent_form {
+	height: auto;
+	min-height: 100vh;
+}
 
 /******
 ********Footer******
@@ -455,6 +463,9 @@ footer {
 .footer_info {
 	height: 100%;
 	border: 1px solid white;
+}
+.footer_info .map {
+	color: #cac9cd;
 }
 /******
 *******Grid******
