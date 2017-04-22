@@ -97,6 +97,51 @@ section {
 	width: 40px;
 	height: 40px;
 }
+.fuel_bigger {
+	background-image: url('../img/icons/fuel.png');
+	width: 20px;
+	height: 20px;	
+}
+.gear_bigger {
+	background-image: url('../img/icons/gearbox.png');
+	width: 20px;
+	height: 20px;	
+}
+.engine_bigger {
+	background-image: url('../img/icons/engine.png');
+	width: 20px;
+	height: 20px;
+}
+.garage_bigger {
+	background-image: url('../img/icons/garage.png');
+	width: 20px;
+	height: 20px;
+}
+.man_bigger {
+	background-image: url('../img/icons/man.png');
+	width: 20px;
+	height: 20px;
+}
+.air-conditioner {
+	background-image: url('../img/icons/air-conditioner.png');
+	width: 20px;
+	height: 20px;
+}
+.cuzov {
+	background-image: url('../img/icons/cuzov.png');
+	width: 20px;
+	height: 20px;
+}
+.fuel_type {
+	background-image: url('../img/icons/fuel_type.png');
+	width: 20px;
+	height: 20px;
+}
+.suitcase {
+	background-image: url('../img/icons/suitcase.png');
+	width: 20px;
+	height: 20px;
+}
 /*****
 
  ********Buttons*******
