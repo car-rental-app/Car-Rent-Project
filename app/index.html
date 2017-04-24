@@ -3,10 +3,18 @@
 <head>
 	<meta name=viewport content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Головна</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="css/library.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">    
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css" />
 </head>
 <body>
 	<div class="dimm"></div>
@@ -90,38 +98,71 @@
 											<form action="" class="box">
 												<div class="row">
 													<div class="col-12">
-														<h3>Швидке бронювання</h3>
+														<h2>Швидке бронювання</h2>
 													</div>
 												</div>
 												<div class="row">
 													<div class="col-12">
-														<input type="text">
-													</div>
-												</div>
-												<div class="row">
-													<div class="col-8">
-														<input type="date">
-													</div>
-													<div class="col-4">
-														<input type="text">
-													</div>
-												</div>
-												<div class="row">
-													<div class="col-12">
-														<input type="text">
-													</div>
-												</div>
-												<div class="row">
-													<div class="col-8">
-														<input type="date">
-													</div>
-													<div class="col-4">
-														<input type="text">
+														<div class="transport_select_type">
+															<select name="Transport_type">
+																<option disabled>  Оберіть вид транспорту </option>
+																<option>Мотоцикл</option>
+																<option>Квадроцикл</option>
+																<option>Легковий автомобіль</option>
+																<option>Вантажний автомобіль</option>
+																<option>Позашляховик</option>
+																<option>Мінівен</option>
+															</select>
+														</div>
 													</div>
 												</div>
 												<div class="row">
 													<div class="col-12">
-														<button class="button yellow">Вибрати авто</button>
+															<h4>Дата замовлення</h4>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-12">
+    														<div class="input-group date" id="datetimepicker1">
+															      <input type="text" class="form-control" />
+															      <span class="input-group-addon">
+															        <span class="glyphicon-calendar glyphicon"></span>
+															      </span>
+														 	</div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-12">
+														<h4>Дата повернення</h4>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-12">
+														<div class="input-group date" id="datetimepicker2">
+															      <input type="text" class="form-control" />
+															      <span class="input-group-addon">
+															        <span class="glyphicon-calendar glyphicon"></span>
+															      </span>
+														</div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-12">
+														<h4>Ваш контактний телефон</h4>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-12">
+														<div class="customer_numb">
+															<input name="telephone" type="tel" placeholder="+38(0__)-___-__-__"  maxlength="13">
+														</div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-12">
+														<div class="form_button">
+															<button class="button yellow">Пошук</button>
+														</div>	
 													</div>
 												</div>
 
