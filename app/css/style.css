@@ -260,6 +260,8 @@ nav {
 .transport_select_type{
 	text-align: center;
 }
+
+
 .transport_select_type select{
 	border-width: 2px;
 	border-color: white;
