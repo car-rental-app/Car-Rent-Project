@@ -24,4 +24,8 @@ if (fixedMenu){
 
 // Date picker
 
-$(".datepicker").datepicker();
+var datePicker = $(".datepicker") || null;
+
+if (datePicker){
+	datePicker.datepicker(); 
+}
