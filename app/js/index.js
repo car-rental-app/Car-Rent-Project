@@ -20,15 +20,8 @@ if (fixedMenu){
 			fixedMenu.classList.add('hidden_top');
 		}
 	});
-	}
-	
-// Bootstrap calendar
+}
 
- $(function () {
-$('#datetimepicker1').datetimepicker({language: 'uk',
- minDate:new Date(),
-minuteStepping:10});
-$('#datetimepicker2').datetimepicker({language: 'uk',
-minDate: new Date(),
-minuteStepping:10,});
-});
+// Date picker
+
+$(".datepicker").datepicker();

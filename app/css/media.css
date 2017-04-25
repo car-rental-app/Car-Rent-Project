@@ -1,0 +1,153 @@
+/******
+*******Grid******
+*******/
+@media screen and (max-width: 1200px) {
+	section, .top_menu, .navbar {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 980px) {
+	.scale .col-4 { width: 40%; }
+	.scale .col-8 { width: 60%; }
+	.menu {
+		width: 315px;
+		right: -315px;
+		transform: translateX(-315px);
+	}
+	.desktop_menu ul li a {
+		font-size: 18px;
+	}
+	.hidden {
+		transform: translateX(0);
+	}
+	.button {
+		padding: 0 10px;
+	}
+	.lead_info .col-5 { width: 50%; }
+	.lead_info .col-7 { width: 50%; }
+	.lead_info {
+		padding: 0px 20px;
+	}
+	.lead_info h1 {
+		margin-bottom: 10px;
+	}
+	.lead_info ul {
+		margin-top: 15px;
+	}
+	.lead_info ul li {
+		margin-right: 10px;
+	}
+	.lead_info .button {
+		margin-top: 15px;
+	}
+}
+@media screen and (max-width: 780px) {   
+	.scale .col-4 { width: 100%; }
+	.scale .col-8 { width: 100%; }
+	.lead_form .col-4 { width: 50%; }
+	.lead_form .col-8 { width: 50%; }
+	.scale {
+		padding-top: 80px;
+	}
+	.deals .col-4 { width: 100%; }
+	.features .col-4 { width: 100%; }
+	.desktop_menu {
+		display: none;
+	}
+	.mobile_menu {
+		display: block;
+	}
+	.top_menu {
+		display: none;
+	}
+	.hidden_top {
+		transform: translateY(0);
+	}
+	.deals {
+		padding-bottom: 0;
+		padding-top: 20px;
+	}
+	.lead_info {
+		padding: 10px;
+	}
+	.features {
+		padding: 0px 0px 30px 0px;
+	}
+	.feature_img {
+		margin-top: 40px;
+	}
+	footer .footer_info {
+		display: none;
+	}
+}
+@media screen and (max-width: 560px) {
+	.col-4, .col-8 { width: 100%; }
+	.main_page_info .col-6 {
+		width: 100%;
+	}
+	.container {
+		padding-top: 60px;
+	}
+	.navbar_buttons {
+		display: none;
+	}
+	.navbar .menu .hidden_button {
+		display: block;
+	}
+	.menu {
+		top: 61px;
+		width: 250px;
+		right: -250px;
+		transform: translateX(-250px);
+	}
+	.hidden {
+		transform: translateX(0);
+	}
+	.deal_wrap, .lead_form, .lead_header {
+		padding: 0;
+	}
+	.lead_info .col-5 { width: 100%; }
+	.lead_info .col-7 { width: 100%; }
+	.lead_info .button {
+		width: 100%;
+	}
+	.lead_info {
+		padding: 0px;
+		padding-top: 15px;
+	}
+	.lead_info ul {
+		margin-top: 30px;
+		text-align: center;
+	}
+	.lead_info ul li {
+		margin-right: 30px;
+	}
+	.lead_info ul li:last-child {
+		margin-right: 0;
+	}
+	.lead_info h1 {
+		font-size: 26px;
+		margin-top: 20px;
+	}
+	.lead_info .button {
+		margin-top: 30px;
+	}
+	.main_page_info {
+		background-size: contain;
+	}
+	.main_page_list h1 {
+		padding: 0px;
+	}
+	.main_page_list ul {
+		padding-left: 24px;
+	}
+	.main_page_info_p p {
+		padding-left: 0px;
+	}
+
+}
+
+
+
+
+

@@ -1,0 +1,21 @@
+{
+  "name": "Rent app",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Kostyshyn <kostyshyn@ua.fm>"
+  ],
+  "license": "BSD-2-Clause",
+  "homepage": "https://github.com/car-rental-app/Car-Rent-Project",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jqueryui-datepicker": "^0.0.3"
+  }
+}

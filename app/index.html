@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name=viewport content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Головна</title>
+	<link rel="stylesheet" href="bower/jqueryui-datepicker/datepicker.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="css/library.css">
 	<link rel="stylesheet" href="css/style.css">    
-    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="js/moment-with-locales.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css" />
+	<link rel="stylesheet" href="css/media.css">
+	<script src="bower/jquery/dist/jquery.min.js"></script>
+	<script src="bower/jqueryui-datepicker/core.js"></script>
+	<script src="bower/jqueryui-datepicker/datepicker.js"></script>
 </head>
 <body>
 	<div class="dimm"></div>
@@ -41,7 +39,7 @@
 						</div>
 						<div class="open_header">Меню</div>
 						<ul class="menu hidden">
-							<li><a href="index.html">Головна</a></li>
+							<li><a href="index.html" class="menu_active">Головна</a></li>
 							<li><a href="catalog.html">Оренда авто</a></li>
 							<li><a href="about.html">Правила та умови</a></li>
 							<li><a href="contact.html">Контакти</a></li>
@@ -70,7 +68,7 @@
 							<nav class="top_menu">
 						        <ul class="header_menu">
 						            <li>
-						            	<a href="index.html">Головна</a>
+						            	<a href="index.html" class="top_menu_active">Головна</a>
 						            </li>
 						            <li>
 						            	<a href="catalog.html">Оренда авто</a>
@@ -98,74 +96,40 @@
 											<form action="" class="box">
 												<div class="row">
 													<div class="col-12">
-														<h2>Швидке бронювання</h2>
+														<h3>Швидке бронювання</h3>
 													</div>
 												</div>
 												<div class="row">
 													<div class="col-12">
-														<div class="transport_select_type">
-															<select name="Transport_type">
-																<option disabled>  Оберіть вид транспорту </option>
-																<option>Мотоцикл</option>
-																<option>Квадроцикл</option>
-																<option>Легковий автомобіль</option>
-																<option>Вантажний автомобіль</option>
-																<option>Позашляховик</option>
-																<option>Мінівен</option>
-															</select>
-														</div>
+														<input type="text">
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-8">
+														<input type="text" class="datepicker">
+													</div>
+													<div class="col-4">
+														<input type="text">
 													</div>
 												</div>
 												<div class="row">
 													<div class="col-12">
-															<h4>Дата замовлення</h4>
+														<input type="text">
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-8">
+														<input type="text" class="datepicker">
+													</div>
+													<div class="col-4">
+														<input type="text">
 													</div>
 												</div>
 												<div class="row">
 													<div class="col-12">
-    														<div class="input-group date" id="datetimepicker1">
-															      <input type="text" class="form-control" />
-															      <span class="input-group-addon">
-															        <span class="glyphicon-calendar glyphicon"></span>
-															      </span>
-														 	</div>
+														<button class="button yellow">Вибрати авто</button>
 													</div>
 												</div>
-												<div class="row">
-													<div class="col-12">
-														<h4>Дата повернення</h4>
-													</div>
-												</div>
-												<div class="row">
-													<div class="col-12">
-														<div class="input-group date" id="datetimepicker2">
-															      <input type="text" class="form-control" />
-															      <span class="input-group-addon">
-															        <span class="glyphicon-calendar glyphicon"></span>
-															      </span>
-														</div>
-													</div>
-												</div>
-												<div class="row">
-													<div class="col-12">
-														<h4>Ваш контактний телефон</h4>
-													</div>
-												</div>
-												<div class="row">
-													<div class="col-12">
-														<div class="customer_numb">
-															<input name="telephone" type="tel" placeholder="+38(0__)-___-__-__"  maxlength="13">
-														</div>
-													</div>
-												</div>
-												<div class="row">
-													<div class="col-12">
-														<div class="form_button">
-															<button class="button yellow">Пошук</button>
-														</div>	
-													</div>
-												</div>
-
 											</form>
 										</div>
 									</div>
@@ -178,7 +142,6 @@
 														<p>Наша компанія перетворила послуги прокату автомобілів з розкоші в доступний, зручний і безперебійно діючий сервіс, що працює у всіх регіонах України. З нашою допомогою ви можете взяти авто напрокат або орендувати цілий автопарк для потреб свого бізнесу, підібравши найбільш відповідні моделі за розміром, пасажиромісткості, вартості оренди або іншим параметрам.</p>
 													</div>
 												</div>
-												<br>
 												<div class="row">
 													<div class="col-5">
 														<a href="about.html" class="button red big">Детальніше</a>
@@ -397,12 +360,6 @@
 			<section>
 				<div class="row">
 					<div class="col-6">
-						<div class="main_page_info_p">
-							<p>Ми надаємо в прокат авто будь-якого класу - від економ, преміум або бізнес. При бажанні у нас можна взяти в довгострокову оренду комфортабельний мінівен або потужний позашляховик. В автопарку компанії знаходиться велика кількість машин всіх класів, так що з вибором у вас точно не буде проблем.</p>
-							<p>Завдяки вигідним тарифам наші клієнти заощаджують на оренді автотранспорту, не жертвуючи комфортом і безпекою. Низькі ціни на прокат авто дозволяють приватним особам вільно пересуватися по всій країні, не володіючи власним автомобілем, а бізнесу - оптимізувати витрати на утримання автопарку.</p>
-						</div>
-					</div>
-					<div class="col-6">
 						<div class="main_page_list">
 							<h1>Звертайтесь до нас, якщо Вас цікавлять наступні послуги:</h1>
 							<ul>
@@ -411,6 +368,12 @@
 								<li>оренда автомобіля з водієм недорого</li>
 								<li>трансферне обслуговування</li>
 							</ul>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="main_page_info_p">
+							<p>Ми надаємо в прокат авто будь-якого класу - від економ, преміум або бізнес. При бажанні у нас можна взяти в довгострокову оренду комфортабельний мінівен або потужний позашляховик. В автопарку компанії знаходиться велика кількість машин всіх класів, так що з вибором у вас точно не буде проблем.</p>
+							<p>Завдяки вигідним тарифам наші клієнти заощаджують на оренді автотранспорту, не жертвуючи комфортом і безпекою. Низькі ціни на прокат авто дозволяють приватним особам вільно пересуватися по всій країні, не володіючи власним автомобілем, а бізнесу - оптимізувати витрати на утримання автопарку.</p>
 						</div>
 					</div>
 				</div>

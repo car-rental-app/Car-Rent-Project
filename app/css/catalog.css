@@ -1,0 +1,225 @@
+/********
+****Icons******
+********/
+
+.fuel_bigger {
+    background-image: url('../img/icons/fuel.png');
+    width: 20px;
+    height: 20px;   
+}
+.gear_bigger {
+    background-image: url('../img/icons/gearbox.png');
+    width: 20px;
+    height: 20px;   
+}
+.engine_bigger {
+    background-image: url('../img/icons/engine.png');
+    width: 20px;
+    height: 20px;
+}
+.garage_bigger {
+    background-image: url('../img/icons/garage.png');
+    width: 20px;
+    height: 20px;
+}
+.man_bigger {
+    background-image: url('../img/icons/man.png');
+    width: 20px;
+    height: 20px;
+}
+.air-conditioner {
+    background-image: url('../img/icons/air-conditioner.png');
+    width: 20px;
+    height: 20px;
+}
+.cuzov {
+    background-image: url('../img/icons/cuzov.png');
+    width: 20px;
+    height: 20px;
+}
+.fuel_type {
+    background-image: url('../img/icons/fuel_type.png');
+    width: 20px;
+    height: 20px;
+}
+.suitcase {
+    background-image: url('../img/icons/suitcase.png');
+    width: 20px;
+    height: 20px;
+}
+
+/******
+******Transport******
+******/
+.catalog {
+	height: auto;
+	min-height: 100vh;
+}
+.body_image {
+	background: url(../img/cloud.jpg) no-repeat 50% fixed ;
+	background-size: cover;
+}
+.breadcrumbs a {
+    color: #9d9d9d;
+    text-decoration: none;
+    font-weight: normal;
+}
+.content {
+    width: 975px;
+    min-width: 975px;
+    margin: 0 auto;
+    overflow: auto;
+    min-height: 590px;
+}
+.align {
+    background-color:#FFFFFF;
+    padding: 25px;
+    border-radius: 1px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    overflow: auto;
+    position: relative;
+}
+.carsClassBlocks {
+    border-bottom: 1px solid #ededed;
+    overflow: auto;
+    position: absolute;
+    top: 18px;
+}
+
+.carClass {
+    cursor: pointer;
+    float: left;
+    margin-right: 5px;
+    padding-bottom: 20px;
+    width: 149px;
+    text-align: center;
+}
+.carName {
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.carPriceRange {
+    color: #aaa;
+}
+.carPriceRange span {
+    color: #1ABC9C;
+    font-weight: bold;
+}
+#catCars {
+    height: 145px;
+}
+
+.product {
+	margin-bottom: 20px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid #ededed;
+    border-radius: 7px;
+}
+.image {
+    float: left;
+    margin: 40px 0;
+    text-align: center;
+    width: 295px;
+    position: relative;
+}
+.image a img {
+    max-width: 250px;
+    max-height: 120px;
+}
+.carPriceBlock {
+    float: left;
+    margin-top: 20px;
+}
+.carPriceBlock a {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+.carTitle {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    float: left;
+    max-width: 360px;
+}
+.carPriceBlock tr.yellow {
+    background-color: #FFFEAA;
+}
+.carPriceBlock td.desc {
+    padding: 6px 35px 6px 0;
+    text-align: right;
+    color: #353535;
+}
+.carPriceBlock td.price {
+    color: #1ABC9C;
+    font-weight: bold;
+    text-align: right;
+}
+.carPriceBlock tr.deposit {
+    border-top: 1px dashed #ededed;
+}
+.note td {
+    font-size: 14px;
+    color: #b1b1b1;
+    text-align: right;
+}
+.carInfoBlock {
+    float: right;
+    margin-top: 38px;
+    width: 300px;
+}
+.carPriceBlock td.desc, .carPriceBlock td.desc span {
+    font-weight: bold;
+    color: #969696;
+}
+.clearfix {
+    clear: both;
+}
+.carClass {
+    color: #b1b1b1;
+    font-size: 14px;
+    font-weight: normal;
+    float: left;
+    margin-top: 1px;
+}
+.carPriceBlock table {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.carInfoBlock td {
+    width: 30%;
+    padding-right: 10px;
+}
+.characteristic-icon {
+    vertical-align: middle;
+    margin: 5px 3px 7px 0;
+
+}
+.rools h1, h2{
+	color:#474747;
+}
+
+.rools p {
+	color:#474747;
+}
+.rools li {
+	color:#474747;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom:20px;
+}
+a {
+	
+text-decoration:none;
+}
+b {
+	color:#FF0059;
+}
