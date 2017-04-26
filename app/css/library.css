@@ -18,7 +18,7 @@ section {
 	width: 80%;
 	margin: 0 auto;
 }
-.row:after {
+.grid-row:after {
 	content: "";
     clear: both;
     display: table;
@@ -51,7 +51,7 @@ section {
 	background-color: white;
 	
 }
-.container {
+.grid-container {
 	padding-top: 60px;
 }
 /******

@@ -16,6 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "jqueryui-datepicker": "^0.0.3"
+    "jqueryui-datepicker": "^0.0.3",
+    "flexboxgrid": "^6.3.2"
   }
 }
