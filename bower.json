@@ -16,6 +16,7 @@
     "tests"
   ],
   "dependencies": {
+    "jquery": "1.11.0",
     "jqueryui-datepicker": "^0.0.3"
   }
 }
