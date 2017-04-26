@@ -14,7 +14,7 @@ openButton.addEventListener('click', function(){
 if (fixedMenu){
 	document.addEventListener('scroll', function(){
 		var scroll = window.pageYOffset;
-		if (scroll > 580 && window.innerWidth > 780){
+		if (scroll > 570 && window.innerWidth > 780){
 			fixedMenu.classList.remove('hidden_top');
 		} else if (scroll < 80 && window.innerWidth > 780){
 			fixedMenu.classList.add('hidden_top');
