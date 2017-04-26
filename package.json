@@ -1,6 +1,6 @@
 {
-  "name": "backboneTest1",
-  "version": "0.0.0",
+  "name": "Rent app",
+  "version": "0.1.0",
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
