@@ -101,7 +101,7 @@
 	height: 35px;
 	/*border: 2px solid #cac9cd;*/
 	border: 2px solid #1ca7ea;
-	font-size: 16px;
+	font-size: 18px;
 	padding: 5px;
 	outline: none;
 	margin-bottom: 13px;
@@ -114,7 +114,14 @@
 	background-repeat: no-repeat;
 	background-size: 24px;
 	background-position: 5px 4px;
-	padding-left: 30px;
+	padding-left: 33px;
+}
+.lead_form form input.datepicker {
+	background-image: url('../img/calendar (1).png');
+	background-repeat: no-repeat;
+	background-size: 24px;
+	background-position: 5px 4px;
+	padding-left: 33px;
 }
 .lead_form h2 {
 	margin: 0;
