@@ -16,7 +16,14 @@
     "tests"
   ],
   "dependencies": {
+<<<<<<< HEAD
+    "jqueryui-datepicker": "^0.0.3",
+    "flexboxgrid": "^6.3.2",
+    "jquery": "1.11.0"
+
+=======
     "jquery": "1.11.0",
     "jqueryui-datepicker": "^0.0.3"
+>>>>>>> 2bb558d2100b3e53d6a474f5ab9b7bfa5b79835e
   }
 }

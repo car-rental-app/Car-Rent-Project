@@ -40,6 +40,9 @@
 	.lead_info .button {
 		margin-top: 15px;
 	}
+	.car_image_wrap .col-4 { width: 100%; }
+	.car_info_wrap .col-4 { width: 50%; }
+	.car_price_wrap .col-4 { width: 50%; }
 }
 @media screen and (max-width: 780px) {   
 	.scale .col-4 { width: 100%; }
@@ -76,6 +79,9 @@
 	.feature_img {
 		margin-top: 40px;
 	}
+	.car_image_wrap .col-4 { width: 100%; }
+	.car_info_wrap .col-4 { width: 100%; }
+	.car_price_wrap .col-4 { width: 100%; }
 	footer .footer_info {
 		display: none;
 	}
