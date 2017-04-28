@@ -11,6 +11,11 @@ h1 {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+/*.row {
+	margin-right: 0;
+  	margin-left: 0;  
+}*/
+
 .btn /*button*/ {
 	display: flex;
 	height: 40px;

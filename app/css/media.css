@@ -147,6 +147,9 @@
 	.main_page_list ul {
 		padding-left: 24px;
 	}
+	.main_page_info_p {
+		padding: 10px 0px;
+	}
 	.main_page_info_p p {
 		padding-left: 0px;
 	}
