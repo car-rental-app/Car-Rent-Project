@@ -1,8 +1,8 @@
-var openButton = document.querySelector('.open_button');
-var hiddenMenu = document.querySelector('.menu');
-var container = document.querySelector('.container');
-var dimmed = document.querySelector('.dimm');
-var fixedMenu = document.querySelector('.fixed_menu') || null;
+const openButton = document.querySelector('.open_button');
+const hiddenMenu = document.querySelector('.menu');
+const container = document.querySelector('.container');
+const dimmed = document.querySelector('.dimm');
+const fixedMenu = document.querySelector('.fixed_menu') || null;
 
 // Navbar animation 
 
@@ -22,10 +22,3 @@ if (fixedMenu){
 	});
 }
 
-// Date picker
-
-var datePicker = $(".datepicker") || null;
-
-if (datePicker){
-	datePicker.datepicker(); 
-}

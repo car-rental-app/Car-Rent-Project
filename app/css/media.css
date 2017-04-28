@@ -47,8 +47,8 @@
 @media screen and (max-width: 780px) {   
 	.scale .col-4 { width: 100%; }
 	.scale .col-8 { width: 100%; }
-	.lead_form .col-4 { width: 50%; }
-	.lead_form .col-8 { width: 50%; }
+	.lead_form .col-4 { width: 33.3%; }
+	.lead_form .col-8 { width: 66.6%; }
 	.scale {
 		padding-top: 80px;
 	}

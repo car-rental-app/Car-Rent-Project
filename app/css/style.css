@@ -85,13 +85,25 @@
 .lead_form form select {
 	width: 100%;
 	height: 35px;
-	/*border: 2px solid #cac9cd;*/
+	/*border: 2px 6olid #cac9cd;*/
 	border: 2px solid #1ca7ea;
-	font-size: 16px;
+	font-size: 17px;
 	padding: 5px;
 	outline: none;
 	margin-bottom: 17px;
 	background-color: white;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+.lead_form form select {
+	color: #a9a9a9;
+	padding-left: 33px;
+}
+.lead_form form select.time {
+	background-image: url('../img/clock.png');
+	background-repeat: no-repeat;
+	background-size: 24px;
+	background-position: 5px 4px;
 }
 .lead_form form select:focus {
 	background-color: #e8f6fc;
@@ -101,13 +113,17 @@
 	height: 35px;
 	/*border: 2px solid #cac9cd;*/
 	border: 2px solid #1ca7ea;
-	font-size: 18px;
+	font-size: 16px;
 	padding: 5px;
 	outline: none;
 	margin-bottom: 13px;
 }
 .lead_form form input:focus {
 	background-color: #e8f6fc;
+}
+.lead_form form .error {
+	border: 2px solid #ff6464;
+	background-color: #ffd0d0;
 }
 .lead_form form input.location {
 	background-image: url('../img/placeholder.png');
@@ -126,6 +142,7 @@
 .lead_form h2 {
 	margin: 0;
 	margin-bottom: 10px;
+	color: #1ca7ea;
 }
 .lead_form p {
 	margin: 0;
