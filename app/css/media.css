@@ -141,6 +141,9 @@
 	.main_page_info {
 		background-size: contain;
 	}
+	.main_page_list {
+		padding: 10px 0px;
+	}
 	.main_page_list h1 {
 		padding: 0px;
 	}

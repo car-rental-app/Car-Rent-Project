@@ -1,7 +1,7 @@
 /********
 ****Icons******
 ********/
-
+/*
 .fuel_bigger {
     background-image: url('../img/icons/fuel.png');
     width: 20px;
@@ -51,7 +51,7 @@
 /******
 ******Transport******
 ******/
-.catalog {
+/*.catalog {
 	background: url(../img/Reef.jpg);
 	background-size: cover;
     height: 100vh;
@@ -221,15 +221,23 @@ text-decoration:none;
 b {
 	color:#FF0059;
 }
-
+*/
 
 /******************************************************/
+
+.catalog {
+    /*background: url(../img/Reef.jpg);*/
+    background-color: #eeeeee;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
 
 .cars {
     height: auto;
     width: 100%;
     /*background-color: white;*/
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     
 }
 .car {
@@ -266,5 +274,20 @@ b {
     min-height: 260px;
     height: auto;
     /*border: 1px solid black;*/
+}
+.car_info p, h1 {
+    margin: 10px 10px;
+}
+.car_buttons {
+    padding: 10px;
+    height: auto;
+    padding-bottom: 20px;
+}
+.car_button {
+    padding: 10px;
+}
+.car .button {
+    width: 100%;
+    float: left;
 }
 
