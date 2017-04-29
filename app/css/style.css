@@ -102,7 +102,7 @@
 	padding-left: 33px;
 }
 .lead_form form select.time:required:invalid {
-	color: #a9a9a9;
+	color: #757575;
 }
 .lead_form form select.time option {
 	color: black;
@@ -130,11 +130,15 @@
 	background-color: #ffd0d0;
 }
 .lead_form form input.location {
-	background-image: url('../img/placeholder.png');
+	background-image: url('../img/location (1).png');
+	padding-left: 33px;
+}
+.lead_form form input.mobile_phone_number {
+	background-image: url('../img/smartphone.png');
 	padding-left: 33px;
 }
 .lead_form form input.datepicker {
-	background-image: url('../img/calendar (1).png');
+	background-image: url('../img/small-calendar.png');
 	padding-left: 33px;
 }
 .lead_form h2 {
