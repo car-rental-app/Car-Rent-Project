@@ -95,6 +95,15 @@ section {
 .social_g {
 	background-image: url('../img/icons/google-plus-social-logotype.png');
 }
+.social_vk_black {
+	background-image: url('../img/icons/001-vk-social-logotype.png');
+}
+.social_fb_black {
+	background-image: url('../img/icons/003-facebook-logo.png');
+}
+.social_g_black {
+	background-image: url('../img/icons/002-google-plus-social-logotype.png');
+}
 .big_icon {
 	width: 40px;
 	height: 40px;
@@ -289,8 +298,8 @@ nav {
 }
 .navbar .menu li{
 	list-style-type: none;
-	height: 50px;
-	line-height: 50px;
+	height: 40px;
+	line-height: 40px;
 	padding-left: 20px;
 	border-bottom: 1px solid grey;
 	transition: .2s;
@@ -300,7 +309,7 @@ nav {
 }
 .navbar .menu li a {
 	color: black;
-	font-size: 24px;
+	font-size: 20px;
 	text-decoration: none;
 	color: grey;
 }
@@ -316,8 +325,15 @@ nav {
 	width: 100%;
 	margin: 0 auto;
 	color: white;
-	height: 49px;
-	line-height: 49px;
+	height: 40px;
+	line-height: 40px;
+}
+.navbar .menu .menu_social {
+	height: 40px;
+	padding-left: 0px;
+	border: none;
+	margin-top: 30px;
+	text-align: center;
 }
 .menu {
 	background-color: white;
@@ -330,6 +346,23 @@ nav {
 	padding: 0;
 	transition: all .3s ease-in-out;
 	transform: translateX(-325px);
+}
+.navbar .menu .menu_social ul {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+.navbar .menu .menu_social li {
+	display: inline-block;
+	margin-right: 15px;
+	padding: 0;
+	border-bottom: none;
+}
+.navbar .menu .menu_social li:last-child {
+	margin-right: 0;
+}
+.navbar .menu .menu_social li a {
+	text-decoration: none;
 }
 .hidden {
 	transform: translateX(0);

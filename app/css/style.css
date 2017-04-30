@@ -134,12 +134,17 @@
 	padding-left: 33px;
 }
 .lead_form form input.mobile_phone_number {
-	background-image: url('../img/smartphone.png');
-	padding-left: 33px;
+/*	background-image: url('../img/smartphone.png');
+	padding-left: 33px;*/
 }
 .lead_form form input.datepicker {
-	background-image: url('../img/small-calendar.png');
 	padding-left: 33px;
+}
+.lead_form form input.datepicker.from {
+	background-image: url('../img/small-calendar.png');
+}
+.lead_form form input.datepicker.to {
+	background-image: url('../img/small-calendar.png');
 }
 .lead_form h2 {
 	margin: 0;

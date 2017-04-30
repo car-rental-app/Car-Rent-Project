@@ -1,10 +1,26 @@
 // Date picker
 
-var datePicker = $(".datepicker") || null;
+var datePickerFrom = $(".datepicker.from");
+var datePickerTo = $(".datepicker.to");
 
-if (datePicker){
-	datePicker.datepicker(); 
-}
+datePickerFrom.datepicker({
+	minDate: 0,
+	dayNamesMin: ['Нд', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],
+	onSelect: function(date){
+		datePickerTo.datepicker("option","minDate", date);
+		var selectedDate = $(this).datepicker('getDate');
+	}
+}); 
+
+datePickerTo.datepicker({
+	minDate: 0,
+	dayNamesMin: ['Нд', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],
+	onSelect: function(date){
+		datePickerFrom.datepicker("option","maxDate", date);
+		var selectedDate = $(this).datepicker('getDate');
+	}
+});
+
 
 // Form validation
 
