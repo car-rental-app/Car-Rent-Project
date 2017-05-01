@@ -1,7 +1,7 @@
 /********
 ****Icons******
 ********/
-/*
+
 .fuel_bigger {
     background-image: url('../img/icons/fuel.png');
     width: 20px;
@@ -51,7 +51,7 @@
 /******
 ******Transport******
 ******/
-/*.catalog {
+.catalog {
 	background: url(../img/Reef.jpg);
 	background-size: cover;
     height: 100vh;
@@ -71,20 +71,15 @@
 }
 .align {
     background-color:#FFFFFF;
+    width: 100%;
     padding: 25px;
     border-radius: 1px;
-    margin-top: 30px;
     margin-bottom: 20px;
     overflow: auto;
     position: relative;
+    border: 1px solid #ededed;
+    border-radius: 2px;
 }
-.carsClassBlocks {
-    border-bottom: 1px solid #ededed;
-    overflow: auto;
-    position: absolute;
-    top: 18px;
-}
-
 .carClass {
     cursor: pointer;
     float: left;
@@ -108,120 +103,40 @@
 #catCars {
     height: 145px;
 }
-
-.product {
-	margin-bottom: 20px;
-    padding-bottom: 10px;
-    overflow: hidden;
-    border: 1px solid #ededed;
-    border-radius: 7px;
-}
-.image {
-    float: left;
-    margin: 40px 0;
-    text-align: center;
-    width: 295px;
-    position: relative;
-}
-.image a img {
-    max-width: 250px;
-    max-height: 120px;
-}
-.carPriceBlock {
-    float: left;
-    margin-top: 20px;
-}
-.carPriceBlock a {
-    font-size: 22px;
-    font-weight: bold;
-    color: #000;
-    text-decoration: none;
-}
-.carTitle {
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    float: left;
-    max-width: 360px;
-}
-.carPriceBlock tr.yellow {
+.light_yellow_price {
     background-color: #FFFEAA;
 }
-.carPriceBlock td.desc {
+.from_to_days {
     padding: 6px 35px 6px 0;
-    text-align: right;
+    text-align: center;
     color: #353535;
 }
-.carPriceBlock td.price {
+.price {
     color: #1ABC9C;
     font-weight: bold;
     text-align: right;
 }
-.carPriceBlock tr.deposit {
+.deposit {
     border-top: 1px dashed #ededed;
 }
-.note td {
+.note {
     font-size: 14px;
     color: #b1b1b1;
     text-align: right;
 }
-.carInfoBlock {
-    float: right;
-    margin-top: 38px;
-    width: 300px;
-}
-.carPriceBlock td.desc, .carPriceBlock td.desc span {
+.from_to_days, .from_to_days span, .car_info p, .desk {
     font-weight: bold;
     color: #969696;
 }
-.clearfix {
-    clear: both;
-}
 .carClass {
-    color: #b1b1b1;
-    font-size: 14px;
-    font-weight: normal;
+    cursor: pointer;
     float: left;
-    margin-top: 1px;
+    margin-right: 5px;
+    padding-bottom: 20px;
+    margin-right: 35px;
+    width: 149px;
+    text-align: center;
 }
-.carPriceBlock table {
-    margin-top: 5px;
-    font-size: 15px;
-}
-
-.carInfoBlock td {
-    width: 30%;
-    padding-right: 10px;
-}
-.characteristic-icon {
-    vertical-align: middle;
-    margin: 5px 3px 7px 0;
-
-}
-.rools h1, h2{
-	color:#474747;
-}
-
-.rools p {
-	color:#474747;
-}
-.rools li {
-	color:#474747;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    margin-bottom:20px;
-}
-a {
-	
-text-decoration:none;
-}
-b {
-	color:#FF0059;
-}
-*/
 
 /******************************************************/
 
@@ -236,6 +151,8 @@ b {
 .cars {
     height: auto;
     width: 100%;
+    border: 1px solid #ededed;
+    border-radius: 2px;
     /*background-color: white;*/
     /*border: 1px solid black;*/
     
@@ -275,7 +192,10 @@ b {
     height: auto;
     /*border: 1px solid black;*/
 }
-.car_info p, h1 {
+.car_info p {
+    margin: 10px 10px;
+}
+.car_info h1 {
     margin: 10px 10px;
 }
 .car_buttons {
