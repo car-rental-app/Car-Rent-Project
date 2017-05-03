@@ -10,11 +10,23 @@ body {
 h1 {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-
-/*.row {
+/*for bug fix*/
+.row {
 	margin-right: 0;
   	margin-left: 0;  
-}*/
+}
+
+@media only screen and (min-width: 48em){
+	.container {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 64em){
+	.container {
+		width: 100%;
+	}
+}
 
 .btn /*button*/ {
 	display: flex;
