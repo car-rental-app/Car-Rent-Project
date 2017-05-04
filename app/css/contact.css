@@ -36,7 +36,34 @@ h1 {
 	color: #FFFFFF;
 	margin: 0 auto;
 	border: none;
+	cursor: pointer;
 }
+
+	.btn:hover /*button*/ {
+	display: flex;
+	height: 40px;
+	padding: 0 30px;
+	background-color: #171717;
+	color: #FFFFFF;
+	margin: 0 auto;
+	border: none;
+	cursor: pointer;
+	}
+
+	.btn:focus /*button*/ {
+		color: #000000;
+		background: #DDDCE0;
+		border: 2px dotted #000000;
+		font-weight: 600;
+		outline: none;
+	}
+	.btn:active {
+		color: #000000;
+		background: #DDDCE0;
+		border: 2px solid #000000;
+		font-weight: 600;
+		outline: none;
+	}	
 
 .asterisk_red {
 	color: red;
