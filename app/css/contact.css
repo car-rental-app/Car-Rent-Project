@@ -17,18 +17,6 @@ h1 {
   	margin-left: 0;  
 }
 
-@media only screen and (min-width: 48em){
-	.container {
-		width: 100%;
-	}
-}
-
-@media only screen and (min-width: 64em){
-	.container {
-		width: 100%;
-	}
-}
-
 .btn /*button*/ {
 	display: flex;
 	height: 40px;
