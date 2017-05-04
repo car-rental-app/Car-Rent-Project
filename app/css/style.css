@@ -4,6 +4,7 @@
 	display: flex;
 	justify-content: space-between;
 	width: 80%;
+	max-width: 1400px;
 	margin: 0 auto;
 	padding: 30px 20px;
 	background-color: rgba(0, 0, 0, 0.0);
@@ -121,6 +122,9 @@
 	background-repeat: no-repeat;
 	background-size: 24px;
 	background-position: 5px 4px;
+}
+.lead_form form input[placeholder] {
+	text-overflow: ellipsis;
 }
 .lead_form form input:focus {
 	background-color: #e8f6fc;
@@ -321,6 +325,7 @@
 }
 .main_page_info_p p:first-child {
 	margin-bottom: 20px;
+	margin-top: 10px;
 }
 .main_page_list {
 	padding: 10px 30px 10px 0px;

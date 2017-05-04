@@ -17,6 +17,7 @@ section {
 	padding: 20px;
 	width: 80%;
 	margin: 0 auto;
+	max-width: 1400px;
 }
 .grid-row:after {
 	content: "";
@@ -104,6 +105,15 @@ section {
 }
 .social_g_black {
 	background-image: url('../img/icons/002-google-plus-social-logotype.png');
+}
+.social_vk_grey {
+	background-image: url('../img/icons/vk-social-logotype (1).png');
+}
+.social_fb_grey {
+	background-image: url('../img/icons/facebook-logo (1).png');
+}
+.social_g_grey {
+	background-image: url('../img/icons/google-plus-social-logotype (1).png');
 }
 .big_icon {
 	width: 40px;
@@ -278,6 +288,7 @@ nav {
 .navbar {
 	width: 80%;
 	margin: 0 auto;
+	max-width: 1400px;
 }
 .navbar .navbar_buttons {
 	margin: 0;
@@ -398,6 +409,12 @@ footer {
 .footer_info li a {
 	color: #cac9cd;
 	text-decoration: none;
+}
+.footer_info li a.active {
+	color: white;
+}
+.footer_info li a:hover {
+	text-decoration: underline;
 }
 .footer_map {
 	line-height: 40px;

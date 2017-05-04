@@ -159,7 +159,9 @@
 	.main_page_info_p p {
 		padding-left: 0px;
 	}
-
+	.main_page_info_p p:first-child {
+		margin-top: 0px;
+	}
 }
 
 
