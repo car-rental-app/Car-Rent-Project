@@ -206,3 +206,8 @@ h1 {
 				display: flex;
 				padding: 0 8px;
 			}
+
+/*validate form*/
+.error-email {
+	color: red;
+}
