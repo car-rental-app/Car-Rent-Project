@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	background-color: #DDDCE0;
+	background-color: #1ca7ea;
 }
 
 * {
@@ -21,7 +21,7 @@ h1 {
 	display: flex;
 	height: 40px;
 	padding: 0 30px;
-	background-color: #000000;
+	background-color: #126B95;
 	color: #FFFFFF;
 	margin: 0 auto;
 	border: none;
@@ -32,7 +32,7 @@ h1 {
 	display: flex;
 	height: 40px;
 	padding: 0 30px;
-	background-color: #171717;
+	background-color: #0B3D56;
 	color: #FFFFFF;
 	margin: 0 auto;
 	border: none;
@@ -97,7 +97,7 @@ h1 {
 		flex-grow: 1;
 		padding: 20px;
 		flex-direction: column;
-		background-color: #EAEAEA;
+		background-color: #59BFEF;
 	}
 	
 		.h2_contact {
@@ -129,7 +129,7 @@ h1 {
 
 .call {
 	width: 100%;
-	background-color: #FFFFFF;
+	background-color: #1abc9c;
 	padding: 10px 0 20px;
 	display: flex;
 	flex-direction: column;
@@ -175,7 +175,7 @@ h1 {
 			.form-group .group-line {
 				width: 100%;
 				height: 3px;
-				background-color: #FFFFFF;
+				background-color: #14967c;
 				position: relative;
 			}
 
@@ -186,12 +186,12 @@ h1 {
 					position: absolute;
 					top: 0;
 					left: 0;
-					background-color: #000000;
+					background-color: #ffc700;
 					transition: width 0.2s linear;
 				}
 
 			.form-group .form-control {
-				background-color: #DDDCE0;
+				background-color: #1ca7ea;
 				border: none;
 				padding: 3px;
 				margin: 0;
