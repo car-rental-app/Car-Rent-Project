@@ -17,6 +17,14 @@ h1 {
   	margin-left: 0;  
 }
 
+.marg_btm_20 {
+	margin-bottom: 20px;
+}
+
+.flexbox {
+	display: flex;
+}
+
 .btn /*button*/ {
 	display: flex;
 	height: 40px;
@@ -41,14 +49,14 @@ h1 {
 
 	.btn:focus /*button*/ {
 		color: #000000;
-		background: #DDDCE0;
+		background: #68A0BB;
 		border: 2px dotted #000000;
 		font-weight: 600;
 		outline: none;
 	}
 	.btn:active {
 		color: #000000;
-		background: #DDDCE0;
+		background: #FFFFFF;
 		border: 2px solid #000000;
 		font-weight: 600;
 		outline: none;
@@ -61,7 +69,11 @@ h1 {
 }
 
 
-/*first block page*/
+/*ADDRESS*/
+
+.contact_us {
+	justify-content: center;
+}
 
 .head-title {
 	padding: 20px 0;
@@ -72,64 +84,53 @@ h1 {
 	text-align: center;
 }
 
-.first_block {
-	justify-content: center;
+.map #map {
+	width: 100%
+	}
+
+	#map {
+		border: none;
+	}
+
+	
+.h2_contact {
+	text-align: center;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin-bottom: 3px;
 }
 
-	.marg_btm_20 {
-		margin-bottom: 20px;
-	}
+.line {
+	display: block;
+	width: auto;
+	height: 2px;
+	background-color: #000000;	
+}
 
-	.map #map {
-			width: 100%
-		}
+.address {
+	display: flex;
+	flex-grow: 1;
+	padding: 20px;
+	flex-direction: column;
+	background-color: #59BFEF;
+}
 
-		#map {
-			border: none;
-		}
+.address > span {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 20px;
+	margin: 3px 0;
+	text-align: center;
+	flex-wrap: nowrap;
+}
 
-	.flexbox {
-		display: flex;
-	}
-	
-	.address {
-		display: flex;
-		flex-grow: 1;
-		padding: 20px;
-		flex-direction: column;
-		background-color: #59BFEF;
-	}
-	
-		.h2_contact {
-			text-align: center;
-			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-			margin-bottom: 3px;
-		}
+.address > form {
+	margin: 10px;
+}
 
-		.line {
-			display: block;
-			width: auto;
-			height: 2px;
-			background-color: #000000;	
-		}
-
-		.address > span {
-			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-			font-size: 20px;
-			margin: 3px 0;
-			text-align: center;
-			flex-wrap: nowrap;
-		}
-
-		.address > form {
-			margin: 10px;
-		}
-
-/* second block page*/
+/*CALL*/
 
 .call {
 	width: 100%;
-	background-color: #1abc9c;
+	background-color: #59BFEF;
 	padding: 10px 0 20px;
 	display: flex;
 	flex-direction: column;
@@ -155,8 +156,8 @@ h1 {
 	}
 
 
-/* third block page */
-.third_block {
+/* SEND FORM */
+.send_form {
 	padding: 20px;
 }
 
@@ -175,7 +176,7 @@ h1 {
 			.form-group .group-line {
 				width: 100%;
 				height: 3px;
-				background-color: #14967c;
+				background-color: #59BFEF;
 				position: relative;
 			}
 
@@ -186,7 +187,7 @@ h1 {
 					position: absolute;
 					top: 0;
 					left: 0;
-					background-color: #ffc700;
+					background-color: #0B3D56;
 					transition: width 0.2s linear;
 				}
 

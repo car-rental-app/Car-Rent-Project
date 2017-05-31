@@ -39,3 +39,18 @@ btn.addEventListener('click', function(e){
 	});
 });
 
+// validation form mail incontact
+
+		function submitForm(form) {
+			if(!validateEmail(form.email.value)) {
+				
+				var errorBlockEmail = document.getElementsByClassName('error-email')[0];
+				errorBlockEmail.innerHTML = 'incorrect email';
+
+				return false;
+			}
+		}
+		function validateEmail(email) {
+    		var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    	return re.test(email);
+		}
